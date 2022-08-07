@@ -1,0 +1,86 @@
+body {
+    font-family: helvetica, sans-serif, italic;
+    background: #232323;
+    background-image: url('https://db3pap007files.storage.live.com/y4mMCpDzwdhQVCZRCuj-kCdNmEUucINyJCt0fscT7HVREZVbEFBpifybQpRQLNTcSriIYlckZ1nJkZzyHG8caFaVdzY-kKAtW927YcbL6Ufvm2wMBz-FpFHdBxUsVkzwpn3r4tzDqal2I7P3bO8Fqf4vNTZL8WhRklFW6z4Q8aexWzy9N3fWWXauydSwtSumiNXzgns8PnsOFjTVhLlBR8VGdcGJg41_OzGQKG5s0SJJ40?encodeFailures=1&width=1323&height=882');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1200px;
+    background-position: center;
+    *box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 11%;
+    background-color: #232323;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.nav-link {
+    display: block;
+    color: #aaaaaa;
+    padding: 20px 10px;
+    font-family: 'Londrina Shadow';
+    font-size: 30px;
+}
+
+.nav-link.active {
+    background-color: #232323;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: #aaaaaa;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    width: 90%;
+}
+
+h1 {
+    font-family: 'Londrina Shadow';
+    text-align: center;
+    font-size: 75px;
+    color: #fff;
+    margin: 15px 0 0 0;
+}
+
+h2 {
+    font-family: italic;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+    margin: 0 5px 20px 0;
+    font-size: 24px;
+    padding: 30px
+}
+
+.p1 {
+    font-family: 'Londrina Shadow';
+    text-align: center;
+    color: #fff;
+    margin: 0 0 30px 0;
+    font-size: 40px;
+}
+
+.p2 {
+    font-family: 'Londrina Shadow';
+    text-align: center;
+    color: #fff;
+    margin: 0 0 30px 0;
+    font-size: 50px;
+}
+
+.section {
+    font-family: 'Londrina Shadow';
+}
